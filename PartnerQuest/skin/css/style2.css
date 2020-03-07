@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'bigjohn';
+    src: url('../fonts/BIGJOHN.otf');
+}
+
+@font-face {
+    font-family: 'slimjoe';
+    src: url('../fonts/SlimJoe.otf');
+}
+
+.carousel .carousel-item {
+    transition-duration: 1.5s;
+}
+
+.navbar{
+    font-family: 'bigjohn', sans-serif;
+}
+
+.degrader{
+    background: linear-gradient(to left, #E77307 0%, #A16CC2 100%);
+}
+
+.degrader_inv{
+    background: linear-gradient(to right, #E77307 0%, #A16CC2 100%);
+}
+
+.dark_cerulean{
+    background: #083D77;
+}
+
+.burgundy{
+    background: #780116;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display : table;
+    width: 100%;
+
+}
+footer {
+    display : table-row;
+    bottom: 0;
+    height: 50px;
+}
+
+.bj{
+    font-family: 'bigjohn', sans-serif;
+}
+
+.sj{
+    font-family: 'slimjoe', sans-serif;
+}
+
+.ms{
+    font-family: 'montserrat',sans-serif;
+}
+
+button{
+    font-family: 'bigjohn', sans-serif;
+}
